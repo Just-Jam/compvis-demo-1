@@ -1,0 +1,355 @@
+image,label
+val (1).jpg,pedestrian
+val (2).jpg,pedestrian
+val (3).jpg,pedestrian
+val (4).jpg,pedestrian
+val (5).jpg,pedestrian
+val (6).jpg,pedestrian
+val (7).jpg,pedestrian
+val (8).jpg,pedestrian
+val (9).jpg,pedestrian
+val (10).jpg,pedestrian
+val (11).jpg,pedestrian
+val (12).jpg,pedestrian
+val (13).jpg,pedestrian
+val (14).jpg,pedestrian
+val (15).jpg,pedestrian
+val (16).jpg,pedestrian
+val (17).jpg,pedestrian
+val (18).jpg,pedestrian
+val (19).jpg,pedestrian
+val (20).jpg,pedestrian
+val (21).jpg,pedestrian
+val (22).jpg,pedestrian
+val (23).jpg,pedestrian
+val (24).jpg,pedestrian
+val (25).jpg,pedestrian
+val (26).jpg,pedestrian
+val (27).jpg,pedestrian
+val (28).jpg,pedestrian
+val (29).jpg,pedestrian
+val (30).jpg,pedestrian
+val (31).jpg,pedestrian
+val (32).jpg,pedestrian
+val (33).jpg,pedestrian
+val (34).jpg,pedestrian
+val (35).jpg,pedestrian
+val (36).jpg,pedestrian
+val (37).jpg,pedestrian
+val (38).jpg,pedestrian
+val (39).jpg,pedestrian
+val (40).jpg,pedestrian
+val (41).jpg,pedestrian
+val (42).jpg,pedestrian
+val (43).jpg,pedestrian
+val (44).jpg,pedestrian
+val (45).jpg,pedestrian
+val (46).jpg,pedestrian
+val (47).jpg,pedestrian
+val (48).jpg,pedestrian
+val (49).jpg,pedestrian
+val (50).jpg,pedestrian
+val (51).jpg,pedestrian
+val (52).jpg,pedestrian
+val (53).jpg,pedestrian
+val (54).jpg,pedestrian
+val (55).jpg,pedestrian
+val (56).jpg,pedestrian
+val (57).jpg,pedestrian
+val (58).jpg,pedestrian
+val (59).jpg,pedestrian
+val (60).jpg,pedestrian
+val (61).jpg,pedestrian
+val (62).jpg,pedestrian
+val (63).jpg,pedestrian
+val (64).jpg,pedestrian
+val (65).jpg,pedestrian
+val (66).jpg,pedestrian
+val (67).jpg,pedestrian
+val (68).jpg,pedestrian
+val (69).jpg,pedestrian
+val (70).jpg,pedestrian
+val (71).jpg,pedestrian
+val (72).jpg,pedestrian
+val (73).jpg,pedestrian
+val (74).jpg,pedestrian
+val (75).jpg,pedestrian
+val (76).jpg,pedestrian
+val (77).jpg,pedestrian
+val (78).jpg,pedestrian
+val (79).jpg,pedestrian
+val (80).jpg,pedestrian
+val (81).jpg,pedestrian
+val (82).jpg,pedestrian
+val (83).jpg,pedestrian
+val (84).jpg,pedestrian
+val (85).jpg,pedestrian
+val (86).jpg,pedestrian
+val (87).jpg,pedestrian
+val (88).jpg,pedestrian
+val (89).jpg,pedestrian
+val (90).jpg,pedestrian
+val (91).jpg,pedestrian
+val (92).jpg,pedestrian
+val (93).jpg,pedestrian
+val (94).jpg,pedestrian
+val (95).jpg,pedestrian
+val (96).jpg,pedestrian
+val (97).jpg,pedestrian
+val (98).jpg,pedestrian
+val (99).jpg,pedestrian
+val (100).jpg,pedestrian
+val (101).jpg,pedestrian
+val (102).jpg,pedestrian
+val (103).jpg,pedestrian
+val (104).jpg,pedestrian
+val (105).jpg,pedestrian
+val (106).jpg,pedestrian
+val (107).jpg,pedestrian
+val (108).jpg,pedestrian
+val (109).jpg,pedestrian
+val (110).jpg,pedestrian
+val (111).jpg,pedestrian
+val (112).jpg,pedestrian
+val (113).jpg,pedestrian
+val (114).jpg,pedestrian
+val (115).jpg,pedestrian
+val (116).jpg,pedestrian
+val (117).jpg,pedestrian
+val (118).jpg,pedestrian
+val (119).jpg,pedestrian
+val (120).jpg,pedestrian
+val (121).jpg,pedestrian
+val (122).jpg,pedestrian
+val (123).jpg,pedestrian
+val (124).jpg,pedestrian
+val (125).jpg,pedestrian
+val (126).jpg,pedestrian
+val (127).jpg,pedestrian
+val (128).jpg,pedestrian
+val (129).jpg,pedestrian
+val (130).jpg,pedestrian
+val (131).jpg,pedestrian
+val (132).jpg,pedestrian
+val (133).jpg,pedestrian
+val (134).jpg,pedestrian
+val (135).jpg,pedestrian
+val (136).jpg,pedestrian
+val (137).jpg,pedestrian
+val (138).jpg,pedestrian
+val (139).jpg,pedestrian
+val (140).jpg,pedestrian
+val (141).jpg,pedestrian
+val (142).jpg,pedestrian
+val (143).jpg,pedestrian
+val (144).jpg,pedestrian
+val (145).jpg,pedestrian
+val (146).jpg,pedestrian
+val (147).jpg,pedestrian
+val (148).jpg,pedestrian
+val (149).jpg,pedestrian
+val (150).jpg,pedestrian
+val (151).jpg,pedestrian
+val (152).jpg,pedestrian
+val (153).jpg,pedestrian
+val (154).jpg,pedestrian
+val (155).jpg,pedestrian
+val (156).jpg,pedestrian
+val (157).jpg,pedestrian
+val (158).jpg,pedestrian
+val (159).jpg,pedestrian
+val (160).jpg,pedestrian
+val (161).jpg,pedestrian
+val (162).jpg,pedestrian
+val (163).jpg,pedestrian
+val (164).jpg,pedestrian
+val (165).jpg,pedestrian
+val (166).jpg,pedestrian
+val (167).jpg,pedestrian
+val (168).jpg,pedestrian
+val (169).jpg,pedestrian
+val (170).jpg,pedestrian
+val (171).jpg,pedestrian
+val (172).jpg,pedestrian
+val (173).jpg,pedestrian
+val (174).jpg,pedestrian
+val (175).jpg,pedestrian
+val (176).jpg,pedestrian
+val (177).jpg,pedestrian
+val (1).jpg,no pedestrian
+val (2).jpg,no pedestrian
+val (3).jpg,no pedestrian
+val (4).jpg,no pedestrian
+val (5).jpg,no pedestrian
+val (6).jpg,no pedestrian
+val (7).jpg,no pedestrian
+val (8).jpg,no pedestrian
+val (9).jpg,no pedestrian
+val (10).jpg,no pedestrian
+val (11).jpg,no pedestrian
+val (12).jpg,no pedestrian
+val (13).jpg,no pedestrian
+val (14).jpg,no pedestrian
+val (15).jpg,no pedestrian
+val (16).jpg,no pedestrian
+val (17).jpg,no pedestrian
+val (18).jpg,no pedestrian
+val (19).jpg,no pedestrian
+val (20).jpg,no pedestrian
+val (21).jpg,no pedestrian
+val (22).jpg,no pedestrian
+val (23).jpg,no pedestrian
+val (24).jpg,no pedestrian
+val (25).jpg,no pedestrian
+val (26).jpg,no pedestrian
+val (27).jpg,no pedestrian
+val (28).jpg,no pedestrian
+val (29).jpg,no pedestrian
+val (30).jpg,no pedestrian
+val (31).jpg,no pedestrian
+val (32).jpg,no pedestrian
+val (33).jpg,no pedestrian
+val (34).jpg,no pedestrian
+val (35).jpg,no pedestrian
+val (36).jpg,no pedestrian
+val (37).jpg,no pedestrian
+val (38).jpg,no pedestrian
+val (39).jpg,no pedestrian
+val (40).jpg,no pedestrian
+val (41).jpg,no pedestrian
+val (42).jpg,no pedestrian
+val (43).jpg,no pedestrian
+val (44).jpg,no pedestrian
+val (45).jpg,no pedestrian
+val (46).jpg,no pedestrian
+val (47).jpg,no pedestrian
+val (48).jpg,no pedestrian
+val (49).jpg,no pedestrian
+val (50).jpg,no pedestrian
+val (51).jpg,no pedestrian
+val (52).jpg,no pedestrian
+val (53).jpg,no pedestrian
+val (54).jpg,no pedestrian
+val (55).jpg,no pedestrian
+val (56).jpg,no pedestrian
+val (57).jpg,no pedestrian
+val (58).jpg,no pedestrian
+val (59).jpg,no pedestrian
+val (60).jpg,no pedestrian
+val (61).jpg,no pedestrian
+val (62).jpg,no pedestrian
+val (63).jpg,no pedestrian
+val (64).jpg,no pedestrian
+val (65).jpg,no pedestrian
+val (66).jpg,no pedestrian
+val (67).jpg,no pedestrian
+val (68).jpg,no pedestrian
+val (69).jpg,no pedestrian
+val (70).jpg,no pedestrian
+val (71).jpg,no pedestrian
+val (72).jpg,no pedestrian
+val (73).jpg,no pedestrian
+val (74).jpg,no pedestrian
+val (75).jpg,no pedestrian
+val (76).jpg,no pedestrian
+val (77).jpg,no pedestrian
+val (78).jpg,no pedestrian
+val (79).jpg,no pedestrian
+val (80).jpg,no pedestrian
+val (81).jpg,no pedestrian
+val (82).jpg,no pedestrian
+val (83).jpg,no pedestrian
+val (84).jpg,no pedestrian
+val (85).jpg,no pedestrian
+val (86).jpg,no pedestrian
+val (87).jpg,no pedestrian
+val (88).jpg,no pedestrian
+val (89).jpg,no pedestrian
+val (90).jpg,no pedestrian
+val (91).jpg,no pedestrian
+val (92).jpg,no pedestrian
+val (93).jpg,no pedestrian
+val (94).jpg,no pedestrian
+val (95).jpg,no pedestrian
+val (96).jpg,no pedestrian
+val (97).jpg,no pedestrian
+val (98).jpg,no pedestrian
+val (99).jpg,no pedestrian
+val (100).jpg,no pedestrian
+val (101).jpg,no pedestrian
+val (102).jpg,no pedestrian
+val (103).jpg,no pedestrian
+val (104).jpg,no pedestrian
+val (105).jpg,no pedestrian
+val (106).jpg,no pedestrian
+val (107).jpg,no pedestrian
+val (108).jpg,no pedestrian
+val (109).jpg,no pedestrian
+val (110).jpg,no pedestrian
+val (111).jpg,no pedestrian
+val (112).jpg,no pedestrian
+val (113).jpg,no pedestrian
+val (114).jpg,no pedestrian
+val (115).jpg,no pedestrian
+val (116).jpg,no pedestrian
+val (117).jpg,no pedestrian
+val (118).jpg,no pedestrian
+val (119).jpg,no pedestrian
+val (120).jpg,no pedestrian
+val (121).jpg,no pedestrian
+val (122).jpg,no pedestrian
+val (123).jpg,no pedestrian
+val (124).jpg,no pedestrian
+val (125).jpg,no pedestrian
+val (126).jpg,no pedestrian
+val (127).jpg,no pedestrian
+val (128).jpg,no pedestrian
+val (129).jpg,no pedestrian
+val (130).jpg,no pedestrian
+val (131).jpg,no pedestrian
+val (132).jpg,no pedestrian
+val (133).jpg,no pedestrian
+val (134).jpg,no pedestrian
+val (135).jpg,no pedestrian
+val (136).jpg,no pedestrian
+val (137).jpg,no pedestrian
+val (138).jpg,no pedestrian
+val (139).jpg,no pedestrian
+val (140).jpg,no pedestrian
+val (141).jpg,no pedestrian
+val (142).jpg,no pedestrian
+val (143).jpg,no pedestrian
+val (144).jpg,no pedestrian
+val (145).jpg,no pedestrian
+val (146).jpg,no pedestrian
+val (147).jpg,no pedestrian
+val (148).jpg,no pedestrian
+val (149).jpg,no pedestrian
+val (150).jpg,no pedestrian
+val (151).jpg,no pedestrian
+val (152).jpg,no pedestrian
+val (153).jpg,no pedestrian
+val (154).jpg,no pedestrian
+val (155).jpg,no pedestrian
+val (156).jpg,no pedestrian
+val (157).jpg,no pedestrian
+val (158).jpg,no pedestrian
+val (159).jpg,no pedestrian
+val (160).jpg,no pedestrian
+val (161).jpg,no pedestrian
+val (162).jpg,no pedestrian
+val (163).jpg,no pedestrian
+val (164).jpg,no pedestrian
+val (165).jpg,no pedestrian
+val (166).jpg,no pedestrian
+val (167).jpg,no pedestrian
+val (168).jpg,no pedestrian
+val (169).jpg,no pedestrian
+val (170).jpg,no pedestrian
+val (171).jpg,no pedestrian
+val (172).jpg,no pedestrian
+val (173).jpg,no pedestrian
+val (174).jpg,no pedestrian
+val (175).jpg,no pedestrian
+val (176).jpg,no pedestrian
+val (177).jpg,no pedestrian
