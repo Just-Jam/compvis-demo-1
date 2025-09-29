@@ -24,9 +24,10 @@ DATALOADER_KW = dict(
     persistent_workers=False
 )
 
-def show_class_examples_native(model, val_loader, class_names, samples_per_class=3):
+def get_model_predictions(model, val_loader, class_names, samples_per_class=3):
     """
-    Streamlit-native version without matplotlib dependencies
+    Model function: Runs the model and returns predictions
+    Returns: Dictionary with class-wise examples
     """
     model.eval()
     collected = {cls: [] for cls in range(len(class_names))}
@@ -50,10 +51,16 @@ def show_class_examples_native(model, val_loader, class_names, samples_per_class
         if all(len(v) >= samples_per_class for v in collected.values()):
             break
 
-    # Streamlit display
+    return collected
+
+
+def display_classification_examples(collected_examples, model, class_names, samples_per_class=3):
+    """
+    UI function: Displays the classification examples in Streamlit
+    """
     st.subheader("🧪 Model Performance Examples")
 
-    for cls, examples in collected.items():
+    for cls, examples in collected_examples.items():
         class_name = class_names[cls] if cls < len(class_names) else f"Class {cls}"
 
         with st.expander(f"Class: {class_name}", expanded=True):
@@ -113,7 +120,7 @@ def main():
         model = model.to(DEVICE)
         return model, checkpoint
 
-    resnet_model, checkpoint = load_model('models/resnet18_pedestrian.pt')
+    model, checkpoint = load_model('models/best_resnet18_pedestrian.pt')
 
     # 2. Reuse the class names (stored in checkpoint or from your earlier variable)
     CLASS_NAMES = checkpoint.get("class_names", ["no pedestrian", "pedestrian"])
@@ -128,11 +135,6 @@ def main():
     val_ds = CsvImageDataset(VAL_DIR, VAL_CSV, transform=val_tfms)
     BATCH_SIZE = 32
     val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE, shuffle=False, **DATALOADER_KW)
-
-    # 3. Show predictions
-    # show_class_examples_grid(resnet_model, val_loader, CLASS_NAMES, samples_per_class=4)
-    show_class_examples_native(resnet_model, val_loader, CLASS_NAMES, samples_per_class=4)
-    st.markdown("---")
 
     # Display results
     col1, col2, col3 = st.columns(3)
@@ -165,7 +167,7 @@ def main():
 
             # Make prediction
             with torch.no_grad():
-                output = resnet_model(input_tensor)
+                output = model(input_tensor)
                 probabilities = torch.nn.functional.softmax(output[0], dim=0)
                 predicted_class = probabilities.argmax().item()
                 confidence = probabilities[predicted_class].item()
@@ -178,6 +180,43 @@ def main():
             st.subheader("Prediction")
             st.write(f"**Predicted Class:** {CLASS_NAMES[predicted_class]}")
             st.write(f"**Confidence:** {confidence:.2%}")
+
+
+    # 3. Show predictions
+    # Initialize session state
+    if "model_results" not in st.session_state:
+        st.session_state.model_results = None
+
+    # Button to run model
+    col1, col2 = st.columns([1, 3])
+
+    with col1:
+        if st.button("🚀 Run Model", type="primary"):
+            with st.spinner("Running model on validation data..."):
+                collected_examples = get_model_predictions(model, val_loader, CLASS_NAMES)
+                st.session_state.model_results = collected_examples
+            st.rerun()
+
+    with col2:
+        if st.session_state.model_results is not None:
+            if st.button("🔄 Refresh Examples"):
+                with st.spinner("Getting new examples..."):
+                    collected_examples = get_model_predictions(model, val_loader, CLASS_NAMES)
+                    st.session_state.model_results = collected_examples
+                st.rerun()
+
+    # Display results
+    if st.session_state.model_results is not None:
+        display_classification_examples(
+            st.session_state.model_results,
+            model,
+            CLASS_NAMES
+        )
+    else:
+        st.info("Click 'Run Model' to see classification examples!")
+    st.markdown("---")
+
+
 
 
 
